@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_nourishing_food">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="当前重量620g"
+        android:layout_margin="15dp"
+        android:textSize="28sp"
+        android:textColor="@color/btn_change_dish_enable"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_change_dish_enable"
+        android:text="补菜通知"
+        android:enabled="false"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="15dp"
+        android:paddingStart="22dp"
+        android:paddingEnd="22dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:textColor="@color/white"
+        app:cornerRadius="3dp"
+        android:textSize="20sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

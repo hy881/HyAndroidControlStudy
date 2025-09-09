@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="activity_background">#292C3A</color>
+    <color name="layout_background">#1D212F</color>
+    <color name="tv_category_selected">#FFFFFFFF</color>
+    <color name="tv_category_normal">#98A1C8</color>
+    <color name="btn_change_dish_disable">#8C3F1E</color>
+    <color name="btn_change_dish_enable">#FC5F0E</color>
+    <color name="layout_nourishing_food">#FFE9DB</color>
+</resources>
